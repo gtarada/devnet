@@ -65,6 +65,7 @@ def configure_ntp(device):
     if re.search(r'Success rate is 100', result, re.MULTILINE):
         result = device.send_config_set(config_lines)
         if not re.search(r'Invalid input detected', result, re.MULTILINE):
+            result = device.send_command('wr')
             result = device.send_command('show ntp status')
             match = re.search(r'Clock is (\S+), stratum', result, re.MULTILINE)
             if match:
