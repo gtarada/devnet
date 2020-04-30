@@ -4,7 +4,6 @@ from nornir import InitNornir
 from nornir.plugins.functions.text import print_result
 from nornir.plugins.tasks.networking import netmiko_send_command
 from nornir.core.filter import F
-from pprint import pprint
 
 with InitNornir(config_file='config.yaml') as nr:
     switches = nr.filter(F(name__contains="SW"))
