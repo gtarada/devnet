@@ -2,11 +2,11 @@ graph {
 	graph [bgcolor="#333333" fontcolor=white fontsize=16 label="Network Map" rankdir=TB]
 	node [color="#006699" fillcolor="#006699" fontcolor=white fontname=Helvetica shape=circle style=filled]
 	edge [arrowhead=open color=green fontcolor=white fontname=Courier fontsize=14 style=dashed]
-	Spine1
-	Spine2
-	Leaf2
-	Leaf1
 	Leaf3
+	Leaf1
+	Spine1
+	Leaf2
+	Spine2
 	Spine1 -- Leaf2 [label="            " headlabel="Ethernet0/0" taillabel="Ethernet0/2"]
 	Spine1 -- Leaf1 [label="            " headlabel="Ethernet0/0" taillabel="Ethernet0/0"]
 	Spine1 -- Leaf3 [label="            " headlabel="Ethernet0/0" taillabel="Ethernet0/1"]

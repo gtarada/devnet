@@ -1,0 +1,6 @@
+Spine1,Ethernet0/2,Leaf2,Ethernet0/0
+Spine1,Ethernet0/0,Leaf1,Ethernet0/0
+Spine1,Ethernet0/1,Leaf3,Ethernet0/0
+Spine2,Ethernet0/2,Leaf2,Ethernet0/1
+Spine2,Ethernet0/1,Leaf3,Ethernet0/1
+Spine2,Ethernet0/0,Leaf1,Ethernet0/1

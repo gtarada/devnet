@@ -2,12 +2,14 @@
 
 from nornir import InitNornir
 from nornir.plugins.tasks.networking import netmiko_send_command
-
+import csv
 from draw_topology import draw_topology
 
 
 def search_lldp_topology():
-
+    """
+    Функция возвращает словарь с информацией о физических соединениях, найденных с помощью LLDP
+    """
     topology_dict = {}
 
     with InitNornir(config_file='config.yaml') as nr:
@@ -31,4 +33,11 @@ def search_lldp_topology():
 
 
 if __name__ == '__main__':
-    draw_topology(search_lldp_topology())
+    our_topology = search_lldp_topology()
+    # Информация о соединениях записывается в csv файл
+    with open('topology.csv', 'w') as f:
+        writer = csv.writer(f)
+        for row in our_topology.keys():
+            writer.writerow(row + our_topology[row])
+    # Информация о топологии в графичском виде записывается в svg файл
+    draw_topology(our_topology)
