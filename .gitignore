@@ -1,4 +1,4 @@
 .vscode/settings.json
 backup/*
 nornir.log
-
+task_3/__pycache__/*
