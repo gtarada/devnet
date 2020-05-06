@@ -1,0 +1,10 @@
+Spine1:
+  hostname: 192.168.100.1
+Spine2:
+  hostname: 192.168.100.2
+Leaf1:
+  hostname: 192.168.100.3
+Leaf2:
+  hostname: 192.168.100.4
+Leaf3:
+  hostname: 192.168.100.5
