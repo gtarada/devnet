@@ -16,61 +16,61 @@
 <ellipse fill="#006699" stroke="#006699" cx="157.5948" cy="-193.3397" rx="42.4939" ry="42.4939"/>
 <text text-anchor="middle" x="157.5948" y="-189.6397" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#ffffff">Spine1</text>
 </g>
-<!-- Leaf3 -->
-<g id="node2" class="node">
-<title>Leaf3</title>
+<!-- Leaf2 -->
+<g id="node3" class="node">
+<title>Leaf2</title>
 <ellipse fill="#006699" stroke="#006699" cx="126.5948" cy="-63.0467" rx="37.0935" ry="37.0935"/>
-<text text-anchor="middle" x="126.5948" y="-59.3467" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#ffffff">Leaf3</text>
+<text text-anchor="middle" x="126.5948" y="-59.3467" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#ffffff">Leaf2</text>
 </g>
-<!-- Spine1&#45;&#45;Leaf3 -->
+<!-- Spine1&#45;&#45;Leaf2 -->
 <g id="edge1" class="edge">
-<title>Spine1&#45;&#45;Leaf3</title>
+<title>Spine1&#45;&#45;Leaf2</title>
 <path fill="none" stroke="#00ff00" stroke-dasharray="5,2" d="M116.2,-184.8294C88.1505,-176.6768 53.1134,-161.2827 35.5948,-133.0934 18.7046,-105.9153 58.7625,-85.2827 91,-73.6711"/>
 <text text-anchor="middle" x="85.5948" y="-121.8934" font-family="Courier,monospace" font-size="14.00" fill="#ffffff"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
 <text text-anchor="middle" x="45.5" y="-77.4711" font-family="Courier,monospace" font-size="14.00" fill="#ffffff">Ethernet0/0</text>
-<text text-anchor="middle" x="70.7" y="-188.6294" font-family="Courier,monospace" font-size="14.00" fill="#ffffff">Ethernet0/1</text>
+<text text-anchor="middle" x="70.7" y="-188.6294" font-family="Courier,monospace" font-size="14.00" fill="#ffffff">Ethernet0/2</text>
 </g>
 <!-- Leaf1 -->
-<g id="node3" class="node">
+<g id="node4" class="node">
 <title>Leaf1</title>
 <ellipse fill="#006699" stroke="#006699" cx="526.5948" cy="-63.0467" rx="37.0935" ry="37.0935"/>
 <text text-anchor="middle" x="526.5948" y="-59.3467" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#ffffff">Leaf1</text>
 </g>
 <!-- Spine1&#45;&#45;Leaf1 -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>Spine1&#45;&#45;Leaf1</title>
 <path fill="none" stroke="#00ff00" stroke-dasharray="5,2" d="M199.4554,-187.2921C245.8676,-179.4253 322.0385,-163.0107 381.5948,-133.0934 391.2088,-128.264 391.3673,-123.6258 400.5948,-118.0934 416.7178,-108.4269 460.6946,-89.8188 492.1493,-76.9304"/>
 <text text-anchor="middle" x="450.5948" y="-121.8934" font-family="Courier,monospace" font-size="14.00" fill="#ffffff"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
 <text text-anchor="middle" x="446.6493" y="-80.7304" font-family="Courier,monospace" font-size="14.00" fill="#ffffff">Ethernet0/0</text>
 <text text-anchor="middle" x="244.9554" y="-191.0921" font-family="Courier,monospace" font-size="14.00" fill="#ffffff">Ethernet0/0</text>
 </g>
-<!-- Leaf2 -->
+<!-- Leaf3 -->
 <g id="node5" class="node">
-<title>Leaf2</title>
+<title>Leaf3</title>
 <ellipse fill="#006699" stroke="#006699" cx="388.5948" cy="-63.0467" rx="37.0935" ry="37.0935"/>
-<text text-anchor="middle" x="388.5948" y="-59.3467" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#ffffff">Leaf2</text>
+<text text-anchor="middle" x="388.5948" y="-59.3467" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#ffffff">Leaf3</text>
 </g>
-<!-- Spine1&#45;&#45;Leaf2 -->
-<g id="edge2" class="edge">
-<title>Spine1&#45;&#45;Leaf2</title>
+<!-- Spine1&#45;&#45;Leaf3 -->
+<g id="edge3" class="edge">
+<title>Spine1&#45;&#45;Leaf3</title>
 <path fill="none" stroke="#00ff00" stroke-dasharray="5,2" d="M149.0574,-151.8199C148.8472,-139.8384 151.0877,-127.4803 158.5948,-118.0934 182.3795,-88.353 292.4585,-72.8102 351.2841,-66.505"/>
 <text text-anchor="middle" x="208.5948" y="-121.8934" font-family="Courier,monospace" font-size="14.00" fill="#ffffff"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
 <text text-anchor="middle" x="305.7841" y="-70.305" font-family="Courier,monospace" font-size="14.00" fill="#ffffff">Ethernet0/0</text>
-<text text-anchor="middle" x="103.5574" y="-140.6199" font-family="Courier,monospace" font-size="14.00" fill="#ffffff">Ethernet0/2</text>
+<text text-anchor="middle" x="103.5574" y="-140.6199" font-family="Courier,monospace" font-size="14.00" fill="#ffffff">Ethernet0/1</text>
 </g>
 <!-- Spine2 -->
-<g id="node4" class="node">
+<g id="node2" class="node">
 <title>Spine2</title>
 <ellipse fill="#006699" stroke="#006699" cx="526.5948" cy="-193.3397" rx="42.4939" ry="42.4939"/>
 <text text-anchor="middle" x="526.5948" y="-189.6397" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#ffffff">Spine2</text>
 </g>
-<!-- Spine2&#45;&#45;Leaf3 -->
-<g id="edge5" class="edge">
-<title>Spine2&#45;&#45;Leaf3</title>
+<!-- Spine2&#45;&#45;Leaf2 -->
+<g id="edge4" class="edge">
+<title>Spine2&#45;&#45;Leaf2</title>
 <path fill="none" stroke="#00ff00" stroke-dasharray="5,2" d="M484.1915,-188.7107C433.0788,-181.8871 345.584,-166.1744 277.5948,-133.0934 267.9203,-128.3862 267.8684,-123.5481 258.5948,-118.0934 227.5622,-99.8403 189.336,-84.6047 162.0209,-74.8242"/>
 <text text-anchor="middle" x="327.5948" y="-121.8934" font-family="Courier,monospace" font-size="14.00" fill="#ffffff"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
 <text text-anchor="middle" x="207.5209" y="-78.6242" font-family="Courier,monospace" font-size="14.00" fill="#ffffff">Ethernet0/1</text>
-<text text-anchor="middle" x="438.6915" y="-192.5107" font-family="Courier,monospace" font-size="14.00" fill="#ffffff">Ethernet0/1</text>
+<text text-anchor="middle" x="438.6915" y="-192.5107" font-family="Courier,monospace" font-size="14.00" fill="#ffffff">Ethernet0/2</text>
 </g>
 <!-- Spine2&#45;&#45;Leaf1 -->
 <g id="edge6" class="edge">
@@ -80,13 +80,13 @@
 <text text-anchor="middle" x="607.9705" y="-76.1355" font-family="Courier,monospace" font-size="14.00" fill="#ffffff">Ethernet0/1</text>
 <text text-anchor="middle" x="612.9215" y="-185.5607" font-family="Courier,monospace" font-size="14.00" fill="#ffffff">Ethernet0/0</text>
 </g>
-<!-- Spine2&#45;&#45;Leaf2 -->
-<g id="edge4" class="edge">
-<title>Spine2&#45;&#45;Leaf2</title>
+<!-- Spine2&#45;&#45;Leaf3 -->
+<g id="edge5" class="edge">
+<title>Spine2&#45;&#45;Leaf3</title>
 <path fill="none" stroke="#00ff00" stroke-dasharray="5,2" d="M520.8662,-151.212C517.6217,-139.4814 512.543,-127.4141 504.5948,-118.0934 493.4214,-104.9905 453.4838,-87.6535 423.571,-75.9656"/>
 <text text-anchor="middle" x="563.5948" y="-121.8934" font-family="Courier,monospace" font-size="14.00" fill="#ffffff"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
 <text text-anchor="middle" x="446.321" y="-64.7656" font-family="Courier,monospace" font-size="14.00" fill="#ffffff">Ethernet0/1</text>
-<text text-anchor="middle" x="475.3662" y="-140.012" font-family="Courier,monospace" font-size="14.00" fill="#ffffff">Ethernet0/2</text>
+<text text-anchor="middle" x="475.3662" y="-140.012" font-family="Courier,monospace" font-size="14.00" fill="#ffffff">Ethernet0/1</text>
 </g>
 </g>
 </svg>

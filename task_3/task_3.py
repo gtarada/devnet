@@ -8,10 +8,11 @@ from draw_topology import draw_topology
 
 def search_lldp_topology():
 
+    topology_dict = {}
+
     with InitNornir(config_file='config.yaml') as nr:
         lldp_nei = nr.run(
             netmiko_send_command, command_string='show lldp neighbors detail', use_genie=True)
-        topology_dict = {}
         for device, response in lldp_nei.items():
             try:
                 for interface in response[0].result['interfaces'].keys():
