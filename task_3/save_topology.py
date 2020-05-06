@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 
+import csv
+
 from nornir import InitNornir
 from nornir.plugins.tasks.networking import netmiko_send_command
-import csv
+
 from draw_topology import draw_topology
 
 
