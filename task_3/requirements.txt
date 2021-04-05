@@ -22,7 +22,7 @@ genie.libs.sdk==20.4
 graphviz==0.14
 idna==2.9
 importlib-metadata==1.6.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 jsonpickle==1.4.1
 junit-xml==1.9
 junos-eznc==2.2.1
